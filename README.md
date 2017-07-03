@@ -70,7 +70,7 @@ pd.Series(arr, labels)
 pd.Series(d)
 ```
 
-<img src="shot3.png" alt="pandas">
+<img src="shot3.png" width="400" aalt="pandas">
 
 <p>You can even use built-in Python functions as datapoints in your series.  </p>
 
@@ -78,7 +78,7 @@ pd.Series(d)
 pd.Series(data=[sum, print, len])
 ```
 
-<img src="shot4.png" alt="pandas">
+<img src="shot4.png" width="400" aalt="pandas">
 
 <p>Pandas uses labels or numbers to allow for very fast lookup of values in a series or table. </p>
 
@@ -109,7 +109,7 @@ ser1 + ser2
 
 ```
 
-<img src="shot5.png" alt="pandas">
+<img src="shot5.png" width="400" aalt="pandas">
 
 <hr>
 
@@ -144,7 +144,7 @@ df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
 
 ```
 
-<img src="2shot1.png" alt="pandas">
+<img src="2shot1.png" width="400" aalt="pandas">
 
 
 <p>If you're working in another IDE, you should get a dataframe that looks similar, if not exactly the same.  Every row is a series, so you can think of a DataFrame as several Series put together.  If I display df['W'], you can see that it looks like a Series.</p>
@@ -154,7 +154,7 @@ df['W']
 
 ```
 
-<img src="2shot2.png" alt="pandas">
+<img src="2shot2.png" width="400" aalt="pandas">
 
 <p>You can confirm this using the following command:</p>
 
@@ -162,7 +162,7 @@ df['W']
 type(df['W'])
 
 
-<img src="2shot3.png" alt="pandas">
+<img src="2shot3.png" width="400" aalt="pandas">
 
 ```
 
@@ -174,7 +174,7 @@ df
 
 ```
 
-<img src="2shot4.png" alt="pandas">
+<img src="2shot4.png" width="400" aalt="pandas">
 
 <p></p>
 
