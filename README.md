@@ -52,8 +52,9 @@ d = {'a':10, 'b': 20, 'c': 30}
 
 ```
 pd.Series(data = my_data, index=labels)
-
 ```
+
+<img src="shot1" alt="pandas">
 
 <p>Another quick way of creating a series is to just pass in the array followed by the labels</p>
 
@@ -61,11 +62,15 @@ pd.Series(data = my_data, index=labels)
 pd.Series(arr, labels)
 ```
 
+<img src="shot2" alt="pandas">
+
 <p></p>
 
 ```
 pd.Series(d)
 ```
+
+<img src="shot3" alt="pandas">
 
 <p>You can even use built-in Python functions as datapoints in your series.  </p>
 
@@ -73,11 +78,15 @@ pd.Series(d)
 pd.Series(data=[sum, print, len])
 ```
 
+<img src="shot4" alt="pandas">
+
 <p>Pandas uses labels or numbers to allow for very fast lookup of values in a series or table. </p>
 
 ```
 ser1 = pd.Series([1,2,3,4], ['Apples', 'Oranges', 'Grapefruit', 'Kiwi'])
 ```
+
+
 
 
 <p>Then, I'll make another similar series, but swap out Grapefruit for Pineapples.</p>
@@ -99,6 +108,8 @@ ser1['Apples']
 ser1 + ser2
 
 ```
+
+<img src="shot5" alt="pandas">
 
 <hr>
 
@@ -133,6 +144,9 @@ df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W', 'X', 'Y', 'Z'])
 
 ```
 
+<img src="2shot1" alt="pandas">
+
+
 <p>If you're working in another IDE, you should get a dataframe that looks similar, if not exactly the same.  Every row is a series, so you can think of a DataFrame as several Series put together.  If I display df['W'], you can see that it looks like a Series.</p>
 
 ```
@@ -140,10 +154,15 @@ df['W']
 
 ```
 
+<img src="2shot2" alt="pandas">
+
 <p>You can confirm this using the following command:</p>
 
 ```
 type(df['W'])
+
+
+<img src="2shot3" alt="pandas">
 
 ```
 
@@ -154,6 +173,8 @@ df['new'] = df['W'] + df['Y']
 df
 
 ```
+
+<img src="2shot4" alt="pandas">
 
 <p></p>
 
