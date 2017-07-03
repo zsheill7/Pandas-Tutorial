@@ -54,7 +54,7 @@ d = {'a':10, 'b': 20, 'c': 30}
 pd.Series(data = my_data, index=labels)
 ```
 
-<img src="shot1.png" width="200" alt="pandas">
+<img src="shot1.png" width="400" alt="pandas">
 
 <p>Another quick way of creating a series is to just pass in the array followed by the labels</p>
 
@@ -62,7 +62,7 @@ pd.Series(data = my_data, index=labels)
 pd.Series(arr, labels)
 ```
 
-<img src="shot2.png" width="200"  alt="pandas">
+<img src="shot2.png" width="400"  alt="pandas">
 
 <p></p>
 
