@@ -176,9 +176,21 @@ df
 
 <img src="2shot4.png" width="400" aalt="pandas">
 
-<p></p>
+<p>For removing columns, you can use .drop.  You'll need to you axis=1 to refer to the columns, as by default, the axis is set to 0 for the rows.  Note that your original DataFrame will not be changed.  If you want to change your original DataFrame, you need to specify an inplace paramater.  This is for the safety of your data. </p>
+
+```
+df.drop('new', axis=1, inplace=True)
 
 ```
 
+```
+df
 
 ```
+
+<img src="2shot1.png" width="400" aalt="pandas">
+
+
+<p>Success!  You've just learned the basics of creating series and DataFrames in Python!</p>
+
+<img src="thumpsup.png" alt="yay" width ="500">
