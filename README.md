@@ -12,7 +12,7 @@ Pandas can be used to work with:
 * Operations
 * Data Input and Output 
 
-I will be working in Jupyter notebook, and if you don't have a Python notebook that you currently use, I would recommend it.  You can use Jupyter by downloading Anaconda <a href="https://www.continuum.io/downloads"> here.</a>
+I will be working in Jupyter notebook, and if you don't have a Python notebook that you currently use, I would recommend using it.  You can use Jupyter by downloading Anaconda <a href="https://www.continuum.io/downloads"> here.</a>
 
 First, you'll need to install pandas by going to your command line and using either
 
